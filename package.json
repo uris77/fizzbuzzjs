@@ -1,0 +1,25 @@
+{
+  "name": "fizzbuzzjs",
+  "version": "0.0.1",
+  "description": "FizzBuzz for JS with tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uris77/fizzbuzzjs.git"
+  },
+  "author": "Roberto Guerra",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/uris77/fizzbuzzjs/issues"
+  },
+  "homepage": "https://github.com/uris77/fizzbuzzjs",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "growl": "~1.7.0",
+    "expect": "0.0.2",
+    "should": "~3.0.1"
+  }
+}
