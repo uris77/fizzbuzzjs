@@ -13,13 +13,13 @@ function numberGenerator(predicate){
 
 function multiplesOfThree(){
   return numberGenerator(function(num){
-    return num % 3 === 0;
+    return num % 3 === 0 && num % 5 != 0 ;
   });
 }
 
 function multiplesOfFive(){
   return numberGenerator(function(num){
-    return num % 5 === 0;
+    return num % 5 === 0 && num % 3 != 0 ;
   });
 }
 
